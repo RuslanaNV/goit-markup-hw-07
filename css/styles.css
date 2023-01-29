@@ -60,18 +60,18 @@ body {
 }
 
 .container{
-    width: 1158px;
+    /* width: 1158px; */
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
 
-    /*outline: 1px solid red;*/
+    outline: 1px solid red;
 }
     
 
 
-/*HEADER*/
+/*-----------------HEADER-----------------------------------------*/
 
 .header {
     max-height: 76px;
@@ -84,7 +84,7 @@ body {
     color: var(--pressed-state-color);
 }
 
-/*--------LOGO--------*/
+/*--------------LOGO---------------------------*/
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -113,7 +113,7 @@ body {
 
 
 
-/*------NAV HEADER-------*/
+/*---------------NAV HEADER------------------------------*/
 
 .header > .container {
     display: flex;
@@ -168,7 +168,7 @@ body {
     color: var(--pressed-state-color);
 }
 
-/*------CONTACT------*/ 
+/*------------CONTACT------------------------------------------*/ 
 
 .contact {
     font-size: 16px;
@@ -185,7 +185,7 @@ body {
     color: var(--pressed-state-color);
 }
 
-/*--------HERO-------*/
+/*----------------HERO---------------------------------------*/
 
 .hero {
     background-color: var(--headings-text-color);
@@ -214,7 +214,7 @@ body {
     margin-right: auto;
 }
 
-/*------BTN------*/
+/*-----------------BTN--------------------------------------*/
 
 .btn {
     font-family: inherit;
@@ -243,7 +243,7 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-/*-----SECTION------*/
+/*---------------SECTION---------------------------------------------------*/
 
 
 .section {
@@ -289,7 +289,7 @@ body {
     color: var(--main-text-color);
 }
 
-/*--------FEATURES--------*/
+/*--------FEATURES--------------------------------*/
 
 .features {
     padding-top: 0;
@@ -406,11 +406,13 @@ body {
     fill: var(--light-mode-color);
 }
 
-/*-------CUSTOMERRS-------*/
+/*---------------CUSTOMERRS---------------------------------------------------------*/
 
 .customers {
-    padding-top: 130px;
-    padding-bottom: 120px;
+    /* padding-top: 130px;
+    padding-bottom: 120px; */
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .customers-title {
@@ -426,12 +428,16 @@ body {
 }
 .customers-list {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 16px; 
     gap: 24px;
    
 }
 
 .customers-item {
-    width: calc((100% - 120px) / 6); 
+    /* width: calc((100% - 120px) / 6);  */
+    width: calc((100% - 24px) / 2);
     height: 88px; 
     
 }
@@ -456,7 +462,7 @@ body {
 
 
 
-/*-------FOOTER-------*/
+/*-------------FOOTER--------------------------------------------*/
 
 .footer {
     background-color: var(--headings-text-color);
@@ -532,7 +538,7 @@ fill: var(--light-mode-color);
 }
 
 
-/*---------FOOTER FORM---------*/
+/*------------FOOTER FORM----------------------------------------------*/
 
 .footer-form-titl {
     font-weight: 500;
@@ -594,7 +600,7 @@ fill: var(--light-mode-color);
 
 
 
-/*--------------MODAL-----------------------*/
+/*------------MODAL-------------------------------------------------*/
 
 .backdrop {
     position: fixed;
@@ -822,7 +828,7 @@ fill: var(--light-mode-color);
 
 
 
-/*---------------PORTFOLIO------------------*/
+/*-----------PORTFOLIO----------------------------------------------*/
 
 .section-main {
     padding-bottom: 120px;
@@ -854,7 +860,7 @@ fill: var(--light-mode-color);
     }
 
 
-/*--------BTN-------*/
+/*--------------BTN-------------------------------------------------*/
 .caption .btn {
     color: var(--primaru-brand-color);
     background-color: var(--light-mode-color);
@@ -872,7 +878,7 @@ fill: var(--light-mode-color);
     color: var(--secondery-text-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-/*----------CONTENT---------*/
+/*----------CONTENT-------------------------------------------------*/
 .content .title {
     font-weight: 500;
     font-size: 20px;
