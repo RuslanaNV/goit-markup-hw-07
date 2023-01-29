@@ -1,0 +1,27 @@
+
+@media screen and (min-width: 480px) {
+
+/* ----------CUSTOMERS------------- */
+    .container {
+        width: 426px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/* --------------SECTION--------------- */
+@media screen and (max-width: 1200px) {
+    .thumb-icon {
+    display: none;
+    }
+}

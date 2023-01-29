@@ -247,46 +247,63 @@ body {
 
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
+    padding-top: 96px;
+    padding-bottom: 96px;
+
 }
 
 .section .list {
+    /* display: flex;
+    gap: 24px; */
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 72px;
+    
     
 }
 
-.thumb {
-    background: var(--light-mode-color);
-    border-radius: 4px;
-    width: 264px;
-    height: 112px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 8px;
+.section .item{
+    max-width: 396px;
+    
 }
 
 .section .title {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
-    /* NAVY BLUE */
+    line-height: 1.2; */
+    
+    
+}
+.section .title{
+
     color: var(--headings-text-color);
 
     margin-bottom: 8px;
-    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
+
+
 .text {
+    font-weight: 500;
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     min-width: 264px;
+    
 }    
 .section .text {    
     color: var(--main-text-color);
+    
 }
 
 /*--------FEATURES--------------------------------*/
@@ -426,6 +443,8 @@ body {
     margin-bottom: 72px;
 
 }
+
+
 .customers-list {
     display: flex;
     flex-wrap: wrap;
@@ -437,10 +456,14 @@ body {
 
 .customers-item {
     /* width: calc((100% - 120px) / 6);  */
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 16px) / 2);
     height: 88px; 
     
 }
+
+
+
+
 .customers-link {
     width: 100%;
     height: 100%;
@@ -948,3 +971,10 @@ fill: var(--light-mode-color);
     padding: 40px 32px 164px;
     background: var(--primaru-brand-color);
 }
+
+/* MEDIA */
+
+
+
+
+    
