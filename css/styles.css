@@ -61,6 +61,7 @@ body {
 
 .container{
     /* width: 1158px; */
+    
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
@@ -258,26 +259,20 @@ body {
     /* display: flex;
     gap: 24px; */
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: column; 
     row-gap: 72px;
+       
     
     
 }
 
-.section .item{
-    max-width: 396px;
-    
-}
 
-.section .title {
-    /* font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2; */
+.thumb {
+    display: none;
+    }
     
     
-}
+
 .section .title{
 
     color: var(--headings-text-color);
@@ -298,7 +293,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    min-width: 264px;
+    /* min-width: 264px; */
     
 }    
 .section .text {    

@@ -3,7 +3,7 @@
 
 /* ----------CUSTOMERS------------- */
     .container {
-        width: 426px;
+       max-width: 428px;
     }
 
 
@@ -20,8 +20,3 @@
 
 
 /* --------------SECTION--------------- */
-@media screen and (max-width: 1200px) {
-    .thumb-icon {
-    display: none;
-    }
-}

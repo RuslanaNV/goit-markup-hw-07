@@ -3,10 +3,9 @@
 
 @media screen and (min-width: 1200px) {
     
-
-
-
-
+    .container {
+        width: 1158px;
+    }
 
 
 
@@ -14,6 +13,15 @@
 
 
 /* --------------SECTION--------------- */
+
+    .section> .container {
+        max-width: 1158px;
+    }
+
+    .section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }   
 
     .thumb {
         background: var(--light-mode-color);
@@ -25,8 +33,36 @@
         justify-content: center;
         margin-bottom: 8px;
     }
-}
 
+    
+    .section .list {
+        flex-wrap: nowrap;
+        gap: 24px;
+        justify-content: space-between;
+    }
+
+    .section .title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .section .text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        min-width: 264px;
+    }
+
+    
+
+
+    
+    
+      
+            
 
 
 
@@ -40,9 +76,7 @@
 
 /* --------CUSTOMERS------------- */
 
-.container {
-    width: 1158px;
-}
+
 
 .customers-item {
     width: calc((100% - 120px) / 6); 
@@ -53,4 +87,9 @@
 .customers-list {
     gap: 24px; 
     
+}
+
+
+
+
 }

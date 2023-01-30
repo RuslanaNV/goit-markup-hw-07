@@ -1,9 +1,43 @@
 
 
-/* ---------CUSTOMERS----------- */
+
 
 
 @media screen and (min-width: 768px) {
+    
+    
+    /* ------------SECTION---------------- */
+
+.section> .container {
+    min-width: 766px;
+    
+}
+.section .list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    
+}
+
+.section .item {
+    width: calc((100% - 24px) / 2);
+    
+}
+
+
+.section .title {
+    text-align: left;
+
+}
+    
+    
+    
+    
+ /* ---------CUSTOMERS----------- */   
+    
+    
+    
     .container {
         width: 582px;
     }
@@ -18,4 +52,9 @@
         column-gap: 24px; 
         
     }
+
+
+
+
+
 }
