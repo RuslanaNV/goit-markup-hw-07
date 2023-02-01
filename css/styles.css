@@ -60,8 +60,7 @@ body {
 }
 
 .container{
-    /* width: 1158px; */
-    
+
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
@@ -69,13 +68,17 @@ body {
 
     outline: 1px solid red;
 }
-    
+ 
+.no-scroll {
+    overflow: hidden;
+}
 
 
 /*-----------------HEADER-----------------------------------------*/
 
 .header {
-    max-height: 76px;
+    /* max-height: 76px; */
+    
     background-color: var(--secondery-text-color);
     border-bottom: 1px solid var(--accent-color);
 
@@ -84,6 +87,8 @@ body {
 .list-nav .link.current {
     color: var(--pressed-state-color);
 }
+
+
 
 /*--------------LOGO---------------------------*/
 
@@ -112,6 +117,115 @@ body {
     color: var(--light-mode-color)
 }
 
+/* -----------MOB-MENU------------------------ */
+
+.mob-menu {
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background: var(--secondery-text-color);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+
+    
+}
+.menu-close {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background:  #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: 16px;
+
+}
+
+.mob-menu > .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+}
+.menu-close-icon {
+}
+.mob-menu-list {
+    margin-bottom: 50px;
+}
+
+.mob-menu-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+.mob-menu-link {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: var(--headings-text-color);
+}
+
+.mob-menu-item:hover,
+.mob-menu-item:focus {
+    color: var(--pressed-state-color);
+}
+
+.mob-menu-tel {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: var(--primaru-brand-color);
+    margin-bottom: 40px;
+
+}
+
+.mob-menu-mail {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+   
+}
+
+.mob-menu-contact {
+    margin-bottom: 40px;
+}
+
+.mob-menu-contact:last-child {
+    margin-bottom: 48px;
+}
+
+.menu-soc-list {
+    display: flex;
+    gap: 56px;
+}
+.menu-soc-item {
+    width: 40px;
+    height: 40px;
+}
+.menu-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primaru-brand-color) ;
+}
+
+
+.menu-soc-icon {
+    fill: var(--secondery-text-color); 
+}
 
 
 /*---------------NAV HEADER------------------------------*/
@@ -122,69 +236,29 @@ body {
 }
 
 .list-nav {
-    display: flex;
-    gap: 40px;
+    display: none;
 }
 
-.navigation {
+/* .navigation {
     display: flex;
     align-items: center; 
     margin-right: auto;
-}
+} */
 
 .header-list {
-    display: flex;
-    gap: 40px; 
+    display: none; 
 }
 
-.navigation .link {
-    position: relative;
+.menu-open {
+    width: 32px;
+    height: 22px;
+    background-color: transparent;
+    border:none;
+    padding: 0;
+    margin-left: auto;
 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    text-decoration: none;
-    color: var(--headings-text-color);
-    transition: color var(--duration);
-
-    display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
-.navigation .link.current::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    background: var(--pressed-state-color);
-    border-radius: 2px;
-    height: 4px;
-    left: 0;
-    bottom: -1px;
-    
-}
-
-.navigation .link:hover,
-.navigation .link:focus {
-    color: var(--pressed-state-color);
-}
-
-/*------------CONTACT------------------------------------------*/ 
-
-.contact {
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--main-text-color);
-
-    padding-top: 24px;
-    padding-bottom: 24px;
-
-    transition: color var(--duration);
-}
-.contact:hover,
-.contact:focus {
-    color: var(--pressed-state-color);
-}
 
 /*----------------HERO---------------------------------------*/
 

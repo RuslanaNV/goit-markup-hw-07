@@ -1,18 +1,33 @@
 
 @media screen and (min-width: 480px) {
 
-/* ----------CUSTOMERS------------- */
     .container {
-       max-width: 428px;
-    }
+        max-width: 428px;
+        
+     }
 
 
 
+/*---------------NAV HEADER------------------------------*/
 
-
-
-
+.header {
+    max-height: 70px;
 }
+
+/* -----------MOB-MENU------------------------ */
+
+.mob-menu-tel {
+    
+    font-size: 36px;
+    
+}
+
+
+/* ----------CUSTOMERS------------- */
+
+
+
+
 
 
 
@@ -20,3 +35,4 @@
 
 
 /* --------------SECTION--------------- */
+}
