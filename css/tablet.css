@@ -1,6 +1,15 @@
 @media screen and (min-width: 768px) {
   /*---------------NAV HEADER------------------------------*/
 
+  .container {
+    max-width: 768px;
+  }
+
+  .menu-open {
+    display: none;
+}
+
+
   .list-nav {
     display: flex;
     gap: 40px;
@@ -12,10 +21,6 @@
     margin-right: auto;
   }
 
-  .header-list {
-    display: flex;
-    gap: 40px;
-  }
 
   .navigation .link {
     position: relative;
@@ -51,16 +56,18 @@
 
 
   /*------------CONTACT------------------------------------------*/ 
-
-.contact {
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--main-text-color);
-
-    padding-top: 24px;
-    padding-bottom: 24px;
-
-    transition: color var(--duration);
+.header-list {
+    display: flex;
+    flex-direction: column;
+    
+}
+.item .contact {
+    
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: var(--main-text-color) ;
 }
 .contact:hover,
 .contact:focus {
@@ -89,7 +96,7 @@
 
   /* ---------CUSTOMERS----------- */
 
-  .container {
+  .customers> .container {
     width: 582px;
   }
 
