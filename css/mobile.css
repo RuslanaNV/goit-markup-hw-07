@@ -15,7 +15,17 @@
 }
 
 
+/*----------------HERO---------------------------------------*/
 
+.hero {
+   padding:112px 55px 112px 55px;
+}
+
+.hero .title {
+width: 318px;
+font-size: 36px;
+max-width: 428px;
+}
 /* -----------MOB-MENU------------------------ */
 
 
@@ -28,6 +38,12 @@
 .menu-soc-list {
     gap: 56px;
 }
+
+
+.team> .container {
+    width: 294px;
+}
+
 /* ----------CUSTOMERS------------- */
 
 

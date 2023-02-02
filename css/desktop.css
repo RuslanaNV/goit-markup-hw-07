@@ -9,9 +9,35 @@
 
     
 
+/*----------------HERO---------------------------------------*/
+    .hero {
+    background-image:var(--bg-gradient),
+    url(../images/people\ office.jpg);
+   
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+    }
 
+    @media (min-device-pixel-ratio: 2),
+   (min-resolution: 192dpi),
+   (min-resolution: 2dppx) {
+   .box {
+    background-image: var(--bg-gradient), url(../images/Desktob-bg-2px.jpg);
+  }
+}
 
-
+    .hero .title {
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: var(--secondery-text-color);
+    
+        margin-bottom: 48px;
+        min-width: 496px;
+        margin-left: auto;
+        margin-right: auto;
+}
 
 /* --------------SECTION--------------- */
 
