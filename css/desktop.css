@@ -4,7 +4,7 @@
 @media screen and (min-width: 1200px) {
     
     .container {
-        width: 1158px;
+        max-width: 1158px;
     }
 
     
@@ -81,22 +81,54 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
         min-width: 264px;
-    }
-
-    
-
-
-    
-    
-      
-            
+    }      
 
 
 
 /* --------------FEATURES------------------ */
 
+.features> .container{
+    width: 1128px ;
+}
+.features .list {
+    display: flex;
+    gap: 24px;
+}
+.features {
+    padding-top: 0;
+    padding-bottom: 120px;
+}
 
+.features .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--headings-text-color);
 
+    margin-bottom: 72px;
+
+}
+
+.features-item {
+    border: 1px solid var(--accent-color);
+    width: calc((100% - 48px) / 3);
+}
+
+/* -------------TEAM---------------------------- */
+
+.team-list {
+    flex-wrap: nowrap;
+    row-gap: 24px;
+  }
+
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
+    .team-item {
+        width: 264px;
+    }
 
 
 
@@ -116,7 +148,26 @@
     
 }
 
+/*-------------FOOTER--------------------------------------------*/
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-input {
+    width: 264px;
+    
+}
+
+.footer> .container {
+    gap: 120px;
+    align-items: flex-start;
+}
 
 
+.footer-input {
+    margin-right: 24px;
+}
 
 }

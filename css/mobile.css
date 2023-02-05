@@ -40,9 +40,12 @@ max-width: 428px;
 }
 
 
-.team> .container {
-    width: 294px;
-}
+
+
+
+/* -------------TEAM----------------------- */
+
+
 
 /* ----------CUSTOMERS------------- */
 
@@ -56,4 +59,22 @@ max-width: 428px;
 
 
 /* --------------SECTION--------------- */
+}
+
+@media screen and (max-width: 1199px){
+    .features {
+        display: none;
+    }
+
+
+/*-------------FOOTER--------------------------------------------*/
+
+
+    .footer-input {
+        /* width: 264px; */
+        width: 396px;
+
+    }
+
+
 }

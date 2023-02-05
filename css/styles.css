@@ -388,32 +388,13 @@ body {
 
 /*--------FEATURES--------------------------------*/
 
-.features {
-    padding-top: 0;
-    padding-bottom: 120px;
-}
 
-.features .title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--headings-text-color);
 
-    margin-bottom: 72px;
+/* .features {
+    display: none;
+} */
 
-}
 
-.features .list {
-    display: flex;
-    gap: 24px;
-}
-
-.features-item {
-    border: 1px solid var(--accent-color);
-    width: calc((100% - 48px) / 3);
-}
 
 
 /* -------------TEAM---------------------------- */
@@ -453,15 +434,6 @@ body {
     gap: 72px;
     align-items: center;
 } 
-
-/* .team-item {
-    width: calc((100% - 72px) / 4);
-} */
-
-/* .team-item {
-    width: 264px;
-} */
-
 
 .team-card{
     padding: 32px 16px;
@@ -578,11 +550,11 @@ body {
 
 /*-------------FOOTER--------------------------------------------*/
 
-.footer {
+/* .footer {
     background-color: var(--headings-text-color);
 
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 
 }
 
@@ -603,7 +575,7 @@ body {
 }
 
 .footer> .container {
-    gap:120px;
+    gap: 120px;
     align-items: flex-start;
 }
 
@@ -640,19 +612,88 @@ fill: var(--light-mode-color);
     color: var(--secondery-text-color);
 
     margin-bottom: 16px;
+} */
+
+.footer {
+    background-color: var(--headings-text-color);
+
+    padding-top: 96px;
+    padding-bottom: 96px;
+    width: 100%;
+
 }
 
-.footer-form-titl {
+.footer > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+ 
+.footer .text {
+    color: var(--accent-color);
+
+    max-width: 268px;
+}
+
+.footer-logo {
+   justify-content: center;
+    
+}
+
+.footer-logo .logo {
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.footer> .container {
+    gap: 71px;
+    align-items: center;
+}
+
+.footer-soc-list {
+    display: flex; 
+    justify-content: center; 
+    gap: 16px;
+}
+
+.footer-item {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-soc .soc-link {
+    background-color:rgba(255, 255, 255, 0.1);
+    transition: background-color var(--duration);
+}
+
+.footer-soc .soc-link:hover,
+.footer-soc .soc-link:focus{
+    background-color: var(--valid-fields);
+}
+
+.footer-icon{
+fill: var(--light-mode-color);
+}
+
+.footer-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondery-text-color);
-
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
 }
 
 
+
 /*------------FOOTER FORM----------------------------------------------*/
+
+
+
 
 .footer-form-titl {
     font-weight: 500;
@@ -661,11 +702,14 @@ fill: var(--light-mode-color);
     letter-spacing: 0.02em;
     color: var(--secondery-text-color);
     margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
 
 }
 
 .footer-input {
-    width: 264px;
+   
+    
     height: 40px;
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -675,13 +719,22 @@ fill: var(--light-mode-color);
     line-height: 2;
     letter-spacing: 0.04em;
     color: var(--secondery-text-color);
-    margin-right: 24px;
+    
 }
 
-.footer-field-form {
+/* .footer-field-form {
    display: flex;
    gap: 24px; 
-}
+} */
+
+.footer-field-form {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 24px; 
+    justify-content: center;
+    align-items: center;
+ }
 
 .button-footer-form {
     width: 165px;
@@ -975,6 +1028,8 @@ fill: var(--light-mode-color);
 
 
 /*--------------BTN-------------------------------------------------*/
+
+
 .caption .btn {
     color: var(--primaru-brand-color);
     background-color: var(--light-mode-color);
@@ -992,7 +1047,11 @@ fill: var(--light-mode-color);
     color: var(--secondery-text-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
+
 /*----------CONTENT-------------------------------------------------*/
+
+
 .content .title {
     font-weight: 500;
     font-size: 20px;
@@ -1004,7 +1063,7 @@ fill: var(--light-mode-color);
     padding-left: 16px;
 }
 .content .text {
-    /* SLATE */
+    
     color: var(--main-text-color);
     padding-left: 16px;
 }
@@ -1063,7 +1122,7 @@ fill: var(--light-mode-color);
     background: var(--primaru-brand-color);
 }
 
-/* MEDIA */
+
 
 
 
