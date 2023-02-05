@@ -619,7 +619,7 @@ fill: var(--light-mode-color);
 
     padding-top: 96px;
     padding-bottom: 96px;
-    width: 100%;
+    /* width: 100%; */
 
 }
 
@@ -628,7 +628,7 @@ fill: var(--light-mode-color);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    gap: 71px;
 }
  
 .footer .text {
@@ -645,11 +645,6 @@ fill: var(--light-mode-color);
 .footer-logo .logo {
     justify-content: center;
     margin-bottom: 16px;
-}
-
-.footer> .container {
-    gap: 71px;
-    align-items: center;
 }
 
 .footer-soc-list {
@@ -687,12 +682,13 @@ fill: var(--light-mode-color);
     justify-content: center;
     margin-bottom: 16px;
 }
+.footer-field {
+   
+}
 
 
 
 /*------------FOOTER FORM----------------------------------------------*/
-
-
 
 
 .footer-form-titl {
@@ -708,8 +704,8 @@ fill: var(--light-mode-color);
 }
 
 .footer-input {
-   
-    
+
+    width: 300px;
     height: 40px;
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);

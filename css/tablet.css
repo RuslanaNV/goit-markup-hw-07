@@ -143,4 +143,32 @@
   .customers-list {
     column-gap: 24px;
   }
+
+
+
+  /*-------------FOOTER--------------------------------------------*/
+
+  .footer > .container {
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    align-items: flex-start;
+  }
+
+  .footer-field-form {
+    flex-direction: row;
+    justify-content: flex-start;
+    
+  }
+
+  .footer-input {
+    max-width: 264px;
+  }
+   
+  .footer-field {
+    display: ;
+  }
+  
 }
