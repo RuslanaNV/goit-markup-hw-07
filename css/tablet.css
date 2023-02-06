@@ -154,22 +154,40 @@
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 584px;
     
   }
 
   .footer-field-form {
-    flex-direction: row;
-    
-   
-    
+    flex-direction: row; 
   }
 
   .footer-input {
     max-width: 264px;
   }
-   
+
+   .footer .text {
+    max-width: 264px;
+   }
 
   .footer-field-form {
-    
+    justify-content: flex-start;
   }
+
+  .footer-form-titl {
+  justify-content: flex-start;
+  }
+
+ .footer-logo .logo {
+  justify-content: flex-start;
+ }
+
+  .footer-title {
+    justify-content: flex-start;
+  }
+
 }
+
+
