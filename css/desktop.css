@@ -155,10 +155,20 @@
     flex-wrap: nowrap;
     
     
+    
 }
 .footer {
     padding-top: 100px;
     padding-bottom: 100px;;
+}
+
+
+.footer-field-form {
+    display: flex;
+}   
+.footer-field {
+    
+  
 }
 
 .footer-input {
@@ -166,18 +176,15 @@
     
 }
 
-.footer> .container {
-    gap: 120px;
-    align-items: flex-start;
-}
+
 
 
 .footer-input {
     margin-right: 24px;
 }
 
-.footer-text {
-    width: 264px;
+.footer-logo {
+    max-width: 264px;
 }
 
 }
