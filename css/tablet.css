@@ -169,7 +169,7 @@
   }
 
    .footer .text {
-    max-width: 264px;
+    width: 264px;
    }
 
   .footer-field-form {
@@ -179,8 +179,8 @@
   .footer-form-titl {
   justify-content: flex-start;
   }
-
- .footer-logo .logo {
+  
+  .footer-logo .logo {
   justify-content: flex-start;
  }
 
@@ -188,6 +188,16 @@
     justify-content: flex-start;
   }
 
+/*------------MODAL-------------------------------------------------*/
+
+.modal {
+  max-width: 408px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
+
+}
+
+
 
 
