@@ -148,18 +148,19 @@
 
   /*-------------FOOTER--------------------------------------------*/
 
-  .footer > .container {
+  .footer> .container {
     
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
-    align-items: flex-start;
+    
   }
 
   .footer-field-form {
     flex-direction: row;
-    justify-content: flex-start;
+    
+   
     
   }
 
@@ -167,8 +168,8 @@
     max-width: 264px;
   }
    
-  .footer-field {
-    display: ;
+
+  .footer-field-form {
+    
   }
-  
 }
