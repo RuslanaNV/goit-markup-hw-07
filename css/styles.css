@@ -818,6 +818,9 @@ fill: var(--light-mode-color);
     background-color: var(--accent-color);
     transition: background-color var(--duration);
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal-close:hover,
