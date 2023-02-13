@@ -193,4 +193,24 @@
     margin-right: auto;
 }
 
+/* ---------------PORTFOLIO--------------------------- */
+
+.section-main {
+    padding-bottom: 120px;
+    padding-top: 96px; 
+}
+
+.content-item {
+     width: calc((100% - 48px) / 3); 
+     
+}
+
+.section-main .caption {
+     margin-bottom: 72px; 
+     justify-content: center; 
+}   
+
+
+
+
 }

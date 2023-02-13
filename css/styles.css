@@ -1004,15 +1004,21 @@ fill: var(--light-mode-color);
 
 /*-----------PORTFOLIO----------------------------------------------*/
 
+
 .section-main {
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
+    /* padding-top: 96px; */
+    padding-top: 48px;
+    padding-bottom: 48px;
+    
 }
 
-.caption {
+.section-main .caption {
     display: flex;
-    margin-bottom: 72px;
-    justify-content: center;
+    margin-bottom: 48px;
     gap: 24px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .visually-hidden {
@@ -1029,9 +1035,6 @@ fill: var(--light-mode-color);
     overflow: hidden;
     }
 
-    .section-main {
-        padding-top: 96px;
-    }
 
 
 /*--------------BTN-------------------------------------------------*/
@@ -1063,7 +1066,6 @@ fill: var(--light-mode-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    /* NAVY BLUE */
     color: var(--headings-text-color);
 
     margin-bottom: 8px;
@@ -1083,10 +1085,11 @@ fill: var(--light-mode-color);
 }
 
 .content-item {
-    width: calc((100% - 48px) / 3);
+    width: 100%;
 }
 
 .content-card {
+    
     padding-top: 32px;
     padding-bottom: 48px;
     border: 1px solid var(--accent-color);
@@ -1113,6 +1116,7 @@ fill: var(--light-mode-color);
     position: relative;
     overflow: hidden;
 }
+
 
 .overlay {
     position: absolute;
