@@ -199,25 +199,16 @@
 
 /* ---------------PORTFOLIO--------------------------- */
 .content {
-  display: flex;
-  flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 
 .content-item {
-   width: calc((100% - 48px) / 2); 
+   width: calc((100% - 24px) / 2); 
 }
 
 .section-main .caption {
   justify-content: center;
-}
-.content {
-  justify-content: center ;
-}
-
-.content > .content-item:last-child {
-  justify-content: flex-start;
 }
 
 

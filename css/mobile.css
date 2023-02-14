@@ -61,10 +61,5 @@ max-width: 428px;
     max-width: 392px;
 }
 
-@media screen and (max-width: 1199.99px) {
-.overlay{
-    display: none;
-}
-}
 }
 

@@ -1075,6 +1075,12 @@ fill: var(--light-mode-color);
     padding-left: 16px;
 }
 
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+
 .content-item {
     width: 100%;
 }
