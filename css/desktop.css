@@ -211,4 +211,32 @@
 }   
 
 
+
+.content .link:hover .overlay,
+.content .link:hover .overlay {
+    transform: translateY(0);
+}
+
+.content-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    transform: translateY(100%);
+    transition: transform var(--duration);
+    
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-mode-color);
+    padding: 40px 32px 164px;
+    background: var(--primaru-brand-color);
+}
+
 }
